@@ -1,0 +1,21 @@
+{
+  "collectionName": "components_component_page_sections",
+  "info": {
+    "displayName": "Page Section",
+    "icon": "align-justify"
+  },
+  "options": {},
+  "attributes": {
+    "title": {
+      "type": "string"
+    },
+    "collectionType": {
+      "type": "enumeration",
+      "enum": [
+        "skill",
+        "work",
+        "role"
+      ]
+    }
+  }
+}

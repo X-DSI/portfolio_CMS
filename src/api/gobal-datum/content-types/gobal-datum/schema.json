@@ -1,0 +1,45 @@
+{
+  "kind": "singleType",
+  "collectionName": "gobal_data",
+  "info": {
+    "singularName": "gobal-datum",
+    "pluralName": "gobal-data",
+    "displayName": "Gobal Data",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "github": {
+      "type": "string"
+    },
+    "linkedin": {
+      "type": "string"
+    },
+    "insta": {
+      "type": "string"
+    },
+    "twitter": {
+      "type": "string"
+    },
+    "stackoverflow": {
+      "type": "string"
+    },
+    "phone": {
+      "type": "string"
+    },
+    "email": {
+      "type": "email"
+    },
+    "heroPage": {
+      "type": "component",
+      "repeatable": false,
+      "component": "component.page-section"
+    }
+  }
+}

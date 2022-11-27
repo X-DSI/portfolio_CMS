@@ -1,0 +1,22 @@
+{
+  "kind": "collectionType",
+  "collectionName": "my_roles",
+  "info": {
+    "singularName": "my-role",
+    "pluralName": "my-roles",
+    "displayName": "My Role"
+  },
+  "options": {
+    "draftAndPublish": false
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "name": {
+      "type": "string"
+    },
+    "slug": {
+      "type": "uid",
+      "targetField": "name"
+    }
+  }
+}
